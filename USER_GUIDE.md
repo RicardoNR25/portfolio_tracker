@@ -126,7 +126,7 @@ The application includes:
 
 Portfolio data is automatically saved to `portfolio.json` in the application directory. This file is created on first transaction and updated after each change.
 
-
+### Notes
 
 - Internet connection required for live price data (Yahoo Finance API)
 - Simulations use 252 trading days per year
