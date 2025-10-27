@@ -1,0 +1,20 @@
+# Voor de data-analyse
+pandas
+# Voor de financiële data
+yfinance
+# Voor de CLI (Command-line interface)
+click
+# Voor de tabellen in de CLI
+tabulate
+# Voor de grafieken
+matplotlib
+# Voor de wiskunde (simulaties)
+numpy
+scipy
+# Voor interactieve CLI menus
+inquirer
+# Voor de laadbalk
+tqdm
+
+python-dateutil
+colorama
