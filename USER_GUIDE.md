@@ -15,21 +15,33 @@ A command-line interface application for tracking and analyzing investment portf
 2. Create a virtual environment:
 ```bash
 # On Windows:
-python -m venv venv
+py -m venv venv
 
 # On Mac/Linux:
 python3 -m venv venv
 ```
 
 3. Activate the virtual environment:
-```bash
-# On Windows (PowerShell):
-# First time only: Set-ExecutionPolicy RemoteSigned -Scope Process
-.\venv\Scripts\activate
 
-# On Mac/Linux:
+**On Windows (PowerShell):**
+
+If you get a security error, first run:
+```bash
+Set-ExecutionPolicy RemoteSigned -Scope Process
+```
+Type Y and press Enter when prompted.
+
+Then activate:
+```bash
+.\venv\Scripts\activate
+```
+
+**On Mac/Linux:**
+```bash
 source venv/bin/activate
 ```
+
+You should now see `(venv)` before your prompt.
 
 4. Install required dependencies:
 ```bash
@@ -114,7 +126,7 @@ The application includes:
 
 Portfolio data is automatically saved to `portfolio.json` in the application directory. This file is created on first transaction and updated after each change.
 
-### Notes
+
 
 - Internet connection required for live price data (Yahoo Finance API)
 - Simulations use 252 trading days per year
